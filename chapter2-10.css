@@ -60,3 +60,19 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+@media screen and (max-width: 768px) {
+  main {
+  	width: 100%;
+  }
+  .box {
+  	width: 90%;
+  	margin-bottom: 20px;
+  	float: none;
+  }
+  .box:last-child {
+  	margin-bottom: 0;
+  }
+  footer {
+  	width: 100%;
+  }
+}
